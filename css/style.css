@@ -12,6 +12,7 @@
     width: 100%;
     background-color: #015fac;
     position: relative;
+    padding: 0 30px;
   }
   
   .nav > .nav-header {
@@ -51,28 +52,29 @@
   }
 
 .hero{
-  background-color: #eee;
 }
 .hero-container{
   display: grid;
   grid-template-columns: 1fr 1fr;
   height: 95vh;
-  padding: 3rem ; /*! ------ modifier   -----*/
 }
+/*todo -----------------------------------------------------------------------------*/
 .column-left{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   color: #000;
-  padding: 0rem 2rem ;
+  padding: 0px 20% ;
+
 }
 
 .column-left h1{
-  margin: 1rem;
-  font-size: 3rem;
+  font-size: 80px;
+  margin-bottom: 20px;
 }
 .column-left p{
+
   margin-bottom: 2rem;
   font-size: 1.5rem;
   line-height: 1.5;
@@ -91,16 +93,27 @@ button:hover{
   color: #015fac;
   border: 3px solid #015fac;
 }
+/*todo -----------------------------------------------------------------------------*/
 
 .column-rigth{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0rem 2rem;
 }
+
+
+
+
+
+
+
+
+
+
+
 .hero-img{
   width: 100%;
-  height: 80%;
+  height: 100%;
 }
 
 
@@ -112,8 +125,14 @@ button:hover{
   .hero-container{
     grid-template-columns: 1fr;
   }
-
-
+  .column-left h1{
+    font-size: 50px;
+  }
+  .column-left{
+  
+    padding: 0px 10% ;
+  
+  }
 }
 
 
@@ -165,5 +184,7 @@ button:hover{
       height: calc(100vh - 50px);
       overflow-y: auto;
     }
-    
+    .column-left h1{
+      font-size: 40px;
+    }
   }
