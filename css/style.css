@@ -114,7 +114,7 @@ button:hover{
 /*todo the about section ----------------------------*/
 .about-cover{
   height: 50vh;
-  background-image: url(/images/about\ cover.jpg);
+  background-image: url(/images/about-cover.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 50px;
