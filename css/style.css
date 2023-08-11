@@ -215,7 +215,10 @@ button:hover{
       font-size: 40px;
     }
     #about{
-      height: 150vh;
+      height: 110vh;
+    }
+    #about p{
+      font-size: 20px;
     }
     
   }
@@ -235,6 +238,7 @@ button:hover{
     justify-content: center;
     align-items: center;
     padding: 30px 8%;
+    text-align: center;
   }
   .container .row {
     display: flex;
