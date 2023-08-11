@@ -5,6 +5,8 @@
   body {
     margin: 0px;
     font-family: 'segoe ui';
+  background-color: #f9f9f9;
+
   }
   
   .nav {
@@ -110,6 +112,13 @@ button:hover{
 }
 
 /*todo the about section ----------------------------*/
+.about-cover{
+  height: 50vh;
+  background-image: url(/images/about\ cover.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 50px;
+}
 
 .section {
   background-color: #f9f9f9;
@@ -129,7 +138,11 @@ button:hover{
   line-height: 1.5;
 }
 
-
+@media (max-width:1300px) {
+  .column-rigth{
+    display: none;
+  }
+}
 
 
 @media (max-width:1000px) {
@@ -140,10 +153,10 @@ button:hover{
     font-size: 50px;
   }
   .column-left{
-  
     padding: 0px 10% ;
   
   }
+  
 }
 
 
