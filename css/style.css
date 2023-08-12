@@ -159,6 +159,9 @@ button:hover{
     padding: 0px 10% ;
   
   }
+  .contact{
+    height: 200vh;
+  }
   
 }
 
@@ -221,6 +224,7 @@ button:hover{
       font-size: 20px;
     }
     
+    
   }
 
 
@@ -233,7 +237,7 @@ button:hover{
   
   .container {
     width: 100%;
-    min-height: 100vh;
+    height:100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -455,3 +459,29 @@ button:hover{
     }
   }
   
+
+/* Styling the footer element */
+footer {
+  background-color: #015fac;
+  padding: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Styling the copyright notice */
+footer h4 {
+  font-size: 18px;
+  color: #e0e0e0;
+}
+
+/* Styling the copyright symbol
+footer h4::before {
+  content: "© ";
+  color: #ff6600;
+} */
+
+/* Styling the year and copyright owner */
+footer h4 span {
+  font-weight: bold;
+  color: #ff6600;
+}
